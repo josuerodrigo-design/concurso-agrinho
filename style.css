@@ -1,0 +1,112 @@
+/* Configurações Gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f9f4;
+    color: #333333;
+}
+
+/* Cabeçalho */
+.cabecalho {
+    background-color: #2e7d32; /* Verde Agrinho */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.cabecalho-titulo {
+    font-size: 24px;
+}
+
+.cabecalho-menu-item {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.cabecalho-menu-item:hover {
+    text-decoration: underline;
+}
+
+/* Conteúdo Principal */
+.conteudo-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 50px;
+    background-color: #e8f5e9;
+    text-align: center;
+}
+
+.titulo-principal {
+    font-size: 36px;
+    color: #1b5e20;
+    margin-bottom: 20px;
+}
+
+.paragrafo-principal {
+    font-size: 18px;
+    max-width: 80px;
+    line-height: 1.6;
+}
+
+/* Seção de Cards (Campo e Cidade) */
+.conteudo-secundario {
+    padding: 50px;
+    text-align: center;
+}
+
+.titulo-secundario {
+    font-size: 28px;
+    color: #2e7d32;
+    margin-bottom: 30px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-top: 5px solid #4caf50;
+}
+
+.card h4 {
+    color: #1b5e20;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.card p {
+    font-size: 15px;
+    line-height: 1.4;
+    color: #555555;
+}
+
+/* Rodapé */
+.rodape {
+    background-color: #1b5e20;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.rodape-texto {
+    font-size: 14px;
+}
